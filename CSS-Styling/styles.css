@@ -1,4 +1,7 @@
-
+body{
+    margin: 0;
+    padding: 0;
+}
 #team {
     background: #dee4ed !important;
 }
@@ -57,7 +60,9 @@
     /* font-family:'Times New Roman', Times, serif; */
     font-weight:800;
     font-size:50px;
-    display: inline-block;
+/*     display: inline-block; */
+    display: flex;
+    justify-content: center;
     text-align: center;
     color: #f0f0f0;
     z-index: 0;
